@@ -12,10 +12,8 @@
 
 .container{
     color: var(--third-color);
-    padding: 4.5em 0 0 0;
-    height: 100vh;
+    padding: 7em 0 0 0;
     text-align: center;
-    margin: 0px auto;
 }
 .title{
     font-family: 'Press Start 2P', cursive;
@@ -46,6 +44,7 @@ div h2{
     background-color: var(--primary-color);
     padding: 18px 20px;
     margin: 20px 0;
+    margin-bottom: 0;
     display: inline-block;
     justify-content: center;
     text-decoration: none;
@@ -66,20 +65,20 @@ div h2{
         margin: 0px 20px;
     }
     .title{
-        font-size: 1.8em;
+        font-size: 1.5em;
         line-height: 1.5;
     }
     .gif{
         margin: 15px 0px;
-        height: 150px;
-        width: 220px;
+        height: 120px;
+        width: 190px;
     }
     div h2{
         font-size: 1em;
         margin-bottom: 8px;
     }
     .text{
-        font-size: .7em;
+        font-size: .6em;
         margin: 0px;
         line-height: 1.4;
     }
@@ -94,26 +93,27 @@ div h2{
     }
 }
 
-/*Responsive 320>x<480*/
-@media only screen and (min-width:321px) and (max-width:480px){
+/*Responsive 320>x<540*/
+@media only screen and (min-width:321px) and (max-width:540px){
     .container{
         padding: 2em 0 0 0;
-        margin: 0px 30px;
+        margin: 0px 40px;
     }
     .title{
         font-size: 2em;
+        line-height: 1.4;
     }
     .gif{
         margin: 20px 0px;
-        height: 200px;
-        width: 300px;
+        height: 160px;
+        width: 260px;
     }
     div h2{
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-bottom: 10px;
     }
     .text{
-        font-size: 1em;
+        font-size: .9em;
         line-height: 1.4;
     }
     .btn-back{
@@ -128,31 +128,31 @@ div h2{
     }
 }
 
-/*Responsive 481>x<768*/
-@media only screen and (min-width:481px) and (max-width:768px){
+/*Responsive 541>x<768*/
+@media only screen and (min-width:541px) and (max-width:768px){
     .container{
-        padding: 3em 0 0 0;
+        padding: 4em 0 0 0;
         margin: 0px 60px;
     }
     .title{
         font-size: 3.5em;
     }
     .gif{
-        margin: 30px 0px;
-        height: 350px;
-        width: 500px;
+        margin: 20px 0px;
+        height: 300px;
+        width: 450px;
     }
     div h2{
-        font-size: 2em;
-        margin-bottom: 15px;
+        font-size: 1.7em;
+        margin-bottom: 10px;
     }
     .text{
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.4;
     }
     .btn-back{
-        font-size: 1.2em;
-        padding: 13px;
+        font-size: 1em;
+        padding: 15px;
         margin-top: 25px 0px;
         border: .2em solid var(--secondary-color);
     }
@@ -163,18 +163,18 @@ div h2{
 }
 
 /*Responsive 769>x<1024*/
-@media only screen and (min-width:769px) and (max-width:1024px){
+@media only screen and (min-width:769px) and (max-width:1020px){
     .container{
-        padding: 3em 0 0 0;
+        padding: 2.5em 0 0 0;
         margin: 0px 80px;
     }
     .title{
         font-size: 4.5em;
     }
     .gif{
-        margin: 50px 0px;
-        height: 400px;
-        width: 600px;
+        margin: 30px 0px;
+        height: 350px;
+        width: 550px;
     }
     div h2{
         font-size: 2.5em;
@@ -188,6 +188,37 @@ div h2{
         font-size: 1.8em;
         padding: 15px;
         margin-top: 25px 0px;
+        border: .2em solid var(--secondary-color);
+    }
+    .btn-back:hover{
+      border: .3em solid var(--primary-color);
+      transition-duration: .1s;
+    }
+}
+/*Responsive 1021>x<1400*/
+@media only screen and (min-width:1021px) and (max-width:1400px){
+    .container{
+        padding: 3em 0 0 0;
+    }
+    .title{
+        font-size: 4em;
+    }
+    .gif{
+        margin: 35px 0px;
+        height: 300px;
+        width: 500px;
+    }
+    div h2{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .text{
+        font-size: 1em;
+    }
+    .btn-back{
+        font-size: 1.2em;
+        padding: 12px;
+        margin-top: 20px;
         border: .2em solid var(--secondary-color);
     }
     .btn-back:hover{
